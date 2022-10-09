@@ -337,9 +337,9 @@ if __name__ == "__main__":
     signButton.click()
     time.sleep(4)
     searchbox1 = driver.find_element_by_name("userName")
-    searchbox1.send_keys("jxx170330@utdallas.edu")
+    searchbox1.send_keys("XXXXX.edu")
     searchbox2 = driver.find_element_by_name("password")
-    searchbox2.send_keys("19900723Xjd")
+    searchbox2.send_keys("XXXXXX")
     
     searchbutton = driver.find_element_by_class_name("gnav-button.gnav-filled")
     
